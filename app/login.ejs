@@ -2,13 +2,13 @@
   <div id="loginCancelContainer" style="display: none">
     <button id="loginCancelButton">
       <div id="loginCancelIcon">X</div>
-      <span id="loginCancelText">Cancel</span>
+      <span id="loginCancelText">Annuler</span>
     </button>
   </div>
   <div id="loginContent">
     <form id="loginForm">
       <img id="loginImageSeal" src="assets/images/SealCircle.png" />
-      <span id="loginSubheader">MINECRAFT LOGIN</span>
+      <span id="loginSubheader">Connexion par Mojang</span>
       <div class="loginFieldContainer">
         <svg id="profileSVG" class="loginSVG" viewBox="40 37 65.36 61.43">
           <g>
@@ -17,12 +17,12 @@
             />
           </g>
         </svg>
-        <span class="loginErrorSpan" id="loginEmailError">* Invalid Value</span>
+        <span class="loginErrorSpan" id="loginEmailError">*Mauvaises données</span>
         <input
           id="loginUsername"
           class="loginField"
           type="text"
-          placeholder="EMAIL OR USERNAME"
+          placeholder="EMAIL DE COMPTE"
         />
       </div>
       <div class="loginFieldContainer">
@@ -33,29 +33,29 @@
             />
           </g>
         </svg>
-        <span class="loginErrorSpan" id="loginPasswordError">* Required</span>
+        <span class="loginErrorSpan" id="loginPasswordError">* Obligatoire</span>
         <input
           id="loginPassword"
           class="loginField"
           type="password"
-          placeholder="PASSWORD"
+          placeholder="MOT DE PASSE"
         />
       </div>
       <div id="loginOptions">
         <span class="loginSpanDim">
-          <a href="https://my.minecraft.net/en-us/password/forgot/"
-            >forgot password?</a
+          <a href="https://www.minecraft.net/en-us/password/forgot/"
+            >Mot de passe perdu?</a
           >
         </span>
         <label id="checkmarkContainer">
           <input id="loginRememberOption" type="checkbox" checked />
-          <span id="loginRememberText" class="loginSpanDim">remember me?</span>
+          <span id="loginRememberText" class="loginSpanDim">S'en souvenir?</span>
           <span class="loginCheckmark"></span>
         </label>
       </div>
       <button id="loginButton" disabled>
         <div id="loginButtonContent">
-          LOGIN
+          Connexion
           <svg id="loginSVG" viewBox="0 0 24.87 13.97">
             <defs>
               <style>
@@ -78,19 +78,19 @@
           <!--<div class="spinningCircle" id="loginSpinner"></div>-->
         </div>
       </button>
-      oder <br />
-      <button id="loginMSButton">Microsoft Login</button>
+      Autre moyen de connexion <br />
+      <button id="loginMSButton">Connexion Par Microsoft</button>
       <div id="loginDisclaimer">
         <span class="loginSpanDim" id="loginRegisterSpan">
           <a href="https://www.minecraft.net/en-us/store/minecraft-java-edition"
-            >Need an Account?</a
+            >Besoin d'un compte ?</a
           >
         </span>
         <p class="loginDisclaimerText">
-          Your password is sent directly to mojang and never stored.
+          Vos données sont gérées directement par Mojang.
         </p>
         <p class="loginDisclaimerText">
-          Helios Launcher is not affiliated with Mojang AB.
+          FTM Launcher n'est pas affilier a Mojang AB.
         </p>
       </div>
     </form>
