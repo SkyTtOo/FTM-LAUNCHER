@@ -8,31 +8,31 @@
                 "invalidValue": "* Mauvaise donnée",
                 "requiredValue": "* Obligatoire",
                 "userMigrated": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "You've attempted to login with a migrated account. Try again using the account email as the username."
+                    "title": "Erreur de connexion:<br>compte microsoft",
+                    "desc": "Vous avez essayé de vous connecter avec un compte Migré. Essayer plutôt le buton connexion par Microsoft."
                 },
                 "invalidCredentials": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "The email or password you've entered is incorrect. Please try again."
+                    "title": "Erreur de connexion:<br>Mauvaise(s) Information(s)",
+                    "desc": "Email ou mot de passe de connexion entré sont incorrects."
                 },
                 "rateLimit": {
-                    "title": "Error During Login:<br>Too Many Attempts",
-                    "desc": "There have been too many login attempts with this account recently. Please try again later."
+                    "title": "Erreur de connexion:<br>Trop de tentatives",
+                    "desc": "Trop de tentatives ont été effectuées sur ce compte réessayer plus tard."
                 },
                 "noInternet": {
-                    "title": "Error During Login:<br>No Internet Connection",
-                    "desc": "You must be connected to the internet in order to login. Please connect and try again."
+                    "title": "Erreur de connexion:<br>Pas de connexion internet",
+                    "desc": "Merci de vérifier votre connexion internet et veuillez réessayer plus tard."
                 },
                 "authDown": {
-                    "title": "Error During Login:<br>Authentication Server Offline",
+                    "title": "Erreur de connexion:<br>Server Mojang Hors-ligne",
                     "desc": "Mojang's authentication server is currently offline or unreachable. Please wait a bit and try again. You can check the status of the server on <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
                 },
                 "notPaid": {
-                    "title": "Error During Login:<br>Game Not Purchased",
-                    "desc": "The account you are trying to login with has not purchased a copy of Minecraft.<br>You may purchase a copy on <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                    "title": "Erreur de connexion:<br>Version non achetée",
+                    "desc": "Vous ne posséder pas de compte officiel Minecraft.<br>Acheter en un sur <a href=\"https://minecraft.net/\">Minecraft.net</a>"
                 },
                 "unknown": {
-                    "title": "Error During Login:<br>Unknown Error"
+                    "title": "Erreur de connexion:<br>Inconnue "
                 }
             },
             "login": "Connexion",
