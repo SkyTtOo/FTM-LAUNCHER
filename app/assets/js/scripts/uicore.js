@@ -48,7 +48,7 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/dscalzi/HeliosLauncher/releases/download/v${info.version}/helioslauncher-setup-${info.version}.dmg`
+                    info.darwindownload = `https://github.com/SkyTtOo/FTM-Launcher/releases/download/v${info.version}/FTM.Launcher-setup-${info.version}.dmg`
                     showUpdateUI(info)
                 }
                 
@@ -56,7 +56,7 @@ if(!isDev){
                 break
             case 'update-downloaded':
                 loggerAutoUpdaterSuccess.log('Update ' + info.version + ' ready to be installed.')
-                settingsUpdateButtonStatus('Install Now', false, () => {
+                settingsUpdateButtonStatus('Installer la MAJ Maintenant', false, () => {
                     if(!isDev){
                         ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
                     }
@@ -65,7 +65,7 @@ if(!isDev){
                 break
             case 'update-not-available':
                 loggerAutoUpdater.log('No new update found.')
-                settingsUpdateButtonStatus('Check for Updates')
+                settingsUpdateButtonStatus('Aucunes mise à jour trouvée')
                 break
             case 'ready':
                 updateCheckListener = setInterval(() => {

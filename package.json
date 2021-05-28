@@ -1,6 +1,6 @@
 {
   "name": "ftmlauncher",
-  "version": "2.0.5",
+  "version": "3.0.0",
   "productName": "FTM Launcher",
   "description": "Launcher FTM permettant d'acceder au server de ftm",
   "author": "Modification par SkyTtOo code source : Daniel Scalzi (https://github.com/dscalzi/)",
@@ -42,7 +42,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "electron": "^11.4.1",
-    "electron-builder": "^22.9.1",
+    "electron-builder": "^22.11.1",
     "eslint": "^7.15.0"
   },
   "repository": {
